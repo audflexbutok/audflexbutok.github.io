@@ -17,21 +17,21 @@
 		<!-- Asset Management -->
 		<a-assets>
                   <audio id = "chaching" src = "client/assets/cash_register_x.wav"></audio>
-			<a-asset-items id = "barstool" src = "client/assets/barstool/scene.gltf"></a-asset-items>
-			<a-asset-items id = "chair" src = "client/assets/low_poly_chair/scene.gltf"></a-asset-items>
-			<a-asset-items id = "espresso machine" src = "client/assets/commercial_coffee_machine/scene.gltf"></a-asset-items>
-			<a-asset-items id = "hanging lamp" src = "client/assets/lamp-02-lowpoly/source/Unity2Skfb/Unity2Skfb.gltf"></a-asset-items>
-			<a-asset-items id = "sapphire lamp" src = "client/assets/sapphire_small_ceiling_lamp/scene.gltf"></a-asset-items>
-			<a-asset-items id = "table" src = "client/assets/table-01-lowpoly-pbr-texture/source/Unity2Skfb/Unity2Skfb.gltf"></a-asset-items>
-			<a-asset-items id = "window" src = "client/assets/Windows/Windows.gltf"></a-asset-items>
-			<a-asset-items id = "counter" src = "client/assets/Counter.glb"></a-asset-items>
-			<a-asset-items id = "frappecounter" src = "client/assets/frappecounter.glb"></a-asset-items>
-			<a-asset-items id = "hextable" src = "client/assets/table.glb"></a-asset-items>
-			<a-asset-items id = "shelf" src = "client/assets/BookShelf.glb"></a-asset-items>
-			<a-asset-items id = "booth" src = "client/assets/booth.gltf"></a-asset-items>
-			<a-asset-items id = "coffee cup" src = "client/assets/coffeecup.gltf"></a-asset-items>
-			<a-asset-items id = "bike" src = "client/assets/Bike.gltf"></a-asset-items>a
-                  <a-asset-items id = "cashregister" src = "client/assets/cash register.gltf"></a-asset-items>
+			<a-asset-items id = "barstool" src = "assets/barstool/scene.gltf"></a-asset-items>
+			<a-asset-items id = "chair" src = "assets/low_poly_chair/scene.gltf"></a-asset-items>
+			<a-asset-items id = "espresso machine" src = "assets/commercial_coffee_machine/scene.gltf"></a-asset-items>
+			<a-asset-items id = "hanging lamp" src = "assets/lamp-02-lowpoly/source/Unity2Skfb/Unity2Skfb.gltf"></a-asset-items>
+			<a-asset-items id = "sapphire lamp" src = "assets/sapphire_small_ceiling_lamp/scene.gltf"></a-asset-items>
+			<a-asset-items id = "table" src = "assets/table-01-lowpoly-pbr-texture/source/Unity2Skfb/Unity2Skfb.gltf"></a-asset-items>
+			<a-asset-items id = "window" src = "assets/Windows/Windows.gltf"></a-asset-items>
+			<a-asset-items id = "counter" src = "assets/Counter.glb"></a-asset-items>
+			<a-asset-items id = "frappecounter" src = "assets/frappecounter.glb"></a-asset-items>
+			<a-asset-items id = "hextable" src = "assets/table.glb"></a-asset-items>
+			<a-asset-items id = "shelf" src = "assets/BookShelf.glb"></a-asset-items>
+			<a-asset-items id = "booth" src = "assets/booth.gltf"></a-asset-items>
+			<a-asset-items id = "coffee cup" src = "assets/coffeecup.gltf"></a-asset-items>
+			<a-asset-items id = "bike" src = "assets/Bike.gltf"></a-asset-items>a
+                  <a-asset-items id = "cashregister" src = "assets/cash register.gltf"></a-asset-items>
 		</a-assets>
 
             <!-- SIGNS -->
@@ -169,15 +169,15 @@
       	<a-entity gltf-model = "#window" scale = "1 3.75 2" rotation = "0 0 0" position = "25.95 -1.52 27.168"></a-entity>
 
 		<!-- Ceiling -->
-		<a-entity static-body geometry = "primitive: box; depth: 50; height: 0.1; width: 55" position = "0 14 5" material = "shader: flat; side: double; opacity: 1; src: url(client/images/ceiling.jpg); repeat: 12 5"></a-entity>
+		<a-entity static-body geometry = "primitive: box; depth: 50; height: 0.1; width: 55" position = "0 14 5" material = "shader: flat; side: double; opacity: 1; src: url(images/ceiling.jpg); repeat: 12 5"></a-entity>
 
 		<!-- Floor -->
-		<a-entity static-body geometry = "primitive: box; depth: 50; height: 0.1; width: 55" position = "0 -0.5 5" material = "shader: flat; side: double; opacity: 1; src: url(client/images/floor.jpg): repeat: 12 5"></a-entity>
+		<a-entity static-body geometry = "primitive: box; depth: 50; height: 0.1; width: 55" position = "0 -0.5 5" material = "shader: flat; side: double; opacity: 1; src: url(images/floor.jpg): repeat: 12 5"></a-entity>
 
 		 <!-- Walls  -->
-    	       <a-entity static-body geometry = "primitive: box; depth: 1; height: 15; width: 50" position = "-26.9 6.557 5" rotation="0 90 0" material = "shader: standard; roughness: 1; src: url(client/images/brick.jpg); repeat: 4 2"></a-entity>
-    	       <a-entity static-body geometry = "primitive: box; depth: 1; height: 15; width: 50" position = "26.65 6.5 5" rotation="0 90 0" material = "shader: standard; roughness: 1; src: url(client/images/brick.jpg); repeat: 4 2"></a-entity>
-    	       <a-entity static-body geometry = "primitive: box; depth: 1; height: 15; width: 55" position = "0 6.5 -20" rotation="0 0 0" material = "shader: standard; roughness: 1; src: url(client/images/brick.jpg); repeat: 12 2"></a-entity>
+    	       <a-entity static-body geometry = "primitive: box; depth: 1; height: 15; width: 50" position = "-26.9 6.557 5" rotation="0 90 0" material = "shader: standard; roughness: 1; src: url(images/brick.jpg); repeat: 4 2"></a-entity>
+    	       <a-entity static-body geometry = "primitive: box; depth: 1; height: 15; width: 50" position = "26.65 6.5 5" rotation="0 90 0" material = "shader: standard; roughness: 1; src: url(images/brick.jpg); repeat: 4 2"></a-entity>
+    	       <a-entity static-body geometry = "primitive: box; depth: 1; height: 15; width: 55" position = "0 6.5 -20" rotation="0 0 0" material = "shader: standard; roughness: 1; src: url(cimages/brick.jpg); repeat: 12 2"></a-entity>
 	</a-scene>
 </body>
 </html>
