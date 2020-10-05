@@ -7,13 +7,13 @@ CS 4331 Virtual Reality Project 1
 
 [Assets](https://github.com/audflexbutok/audflexbutok.github.io/tree/main/assets)
 
-[Video Presentation]()
+[Video Presentation](https://www.youtube.com/watch?v=LPSFmtwnRBE&t)
 
 # Description
 The goal of this project was to create a VR environment that reflected a change brought about by the COVID pandemic. Since this project was web-based using A-Frame, HTML was utilized.
 
 # Getting Started - Layout
-I created a layout of the floorplan in Microsoft OneNote. This plan also gave me an idea of the models that I needed to make and acquire for my VR environment.
+I created a layout of the floorplan in Microsoft OneNote. This plan also gave me an idea of the models that I needed to make and acquire for my VR environment. Some of this was adjusted for the final product. For example, I removed the kitchen to avoid having to place more models and have a lower load time and framerate.
 
 ![](/images/SummaryReport/layout.png)
 
