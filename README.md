@@ -7,7 +7,9 @@ CS 4331 Virtual Reality Project 1
 
 [Assets](https://github.com/audflexbutok/audflexbutok.github.io/tree/main/assets)
 
-[Video Presentation](https://www.youtube.com/watch?v=LPSFmtwnRBE&t)
+[Video Presentation: Duration - 2 mins 18 seconds](https://www.youtube.com/watch?v=LPSFmtwnRBE&t)
+
+[Video Demo (for readme.md): Duration - 50 seconds](https://www.youtube.com/watch?v=C2NTOvv4vPg)
 
 # Description
 The goal of this project was to create a VR environment that reflected a change brought about by the COVID pandemic. Since this project was web-based using A-Frame, HTML was utilized.
