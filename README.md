@@ -1,2 +1,2 @@
 # audflexbutok.github.io
-CS 4331 Virtual Reality Projext 1
+CS 4331 Virtual Reality Project 1
